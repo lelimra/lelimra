@@ -1,0 +1,113 @@
+<svg viewBox="0 0 520 250" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="LE LIMRA Logo">
+  <!-- Definitions for gradients -->
+  <defs>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="50%" stop-color="#64748b" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+  </defs>
+
+  <!-- ================= TOP SECTION: "LE", AIRFLOW WAVES & (TM) ================= -->
+  <!-- "LE" Section (Slanted aerodynamic royal blue & red) -->
+  <g id="logo-top-le">
+    <!-- Letter L -->
+    <path
+      fill="#1A3B8B"
+      d="M 52 32 L 72 32 L 56 74 L 88 74 L 84 86 L 36 86 L 40 70 Z"
+    />
+
+    <!-- Letter E -->
+    <path
+      fill="#1A3B8B"
+      d="M 94 32 L 138 32 L 134 44 L 110 44 L 106 54 L 128 54 L 124 66 L 102 66 L 98 74 L 130 74 L 126 86 L 80 86 Z"
+    />
+
+    <!-- E Red Accent (Center aerodynamic bar) -->
+    <polygon
+      fill="#E31E24"
+      points="108,50 134,50 130,62 104,62"
+    />
+  </g>
+
+  <!-- Aerodynamic Airflow Waves (Silver / Grey curves) -->
+  <g id="logo-wind-waves" stroke="url(#waveGrad)" stroke-width="4.5" stroke-linecap="round" fill="none">
+    <!-- Top Wave Curve -->
+    <path d="M 270 54 C 295 42, 335 72, 380 50" />
+    <!-- Bottom Wave Curve -->
+    <path d="M 275 66 C 300 54, 340 84, 385 62" />
+  </g>
+
+  <!-- (TM) Trademark Badge -->
+  <g id="logo-trademark" transform="translate(402, 58)">
+    <circle cx="11" cy="0" r="11" stroke="#1A3B8B" stroke-width="1.8" fill="none" />
+    <text
+      x="11"
+      y="3.5"
+      fill="#1A3B8B"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="8.5"
+      font-weight="900"
+      text-anchor="middle"
+    >TM</text>
+  </g>
+
+  <!-- ================= CENTER WORDMARK: "LIMRA" ================= -->
+  <g id="logo-main-limra">
+    <!-- Letter L -->
+    <path
+      fill="#1A3B8B"
+      d="M 36 100 L 64 100 L 64 164 L 95 164 L 95 186 L 36 186 Z"
+    />
+
+    <!-- Letter I -->
+    <rect fill="#1A3B8B" x="106" y="100" width="27" height="86" rx="1" />
+
+    <!-- Letter M -->
+    <path
+      fill="#1A3B8B"
+      d="M 144 100 L 171 100 L 191 148 L 211 100 L 238 100 L 238 186 L 213 186 L 213 134 L 197 172 L 185 172 L 169 134 L 169 186 L 144 186 Z"
+    />
+
+    <!-- Letter R -->
+    <path
+      fill="#1A3B8B"
+      d="M 249 100 L 298 100 C 318 100 328 110 328 126 C 328 138 320 148 305 151 L 331 186 L 301 186 L 279 154 L 275 154 L 275 186 L 249 186 Z M 275 119 L 275 137 L 294 137 C 300 137 304 134 304 128 C 304 122 300 119 294 119 Z"
+    />
+
+    <!-- Letter A Base -->
+    <path
+      fill="#1A3B8B"
+      d="M 382 100 L 424 186 L 396 186 L 387 166 L 377 166 L 368 186 L 340 186 Z M 382 128 L 372 150 L 392 150 Z"
+    />
+
+    <!-- Letter A Red Triangle Inset (Signature brand emblem) -->
+    <polygon
+      fill="#E31E24"
+      points="382,142 402,186 362,186"
+    />
+  </g>
+
+  <!-- ================= BOTTOM SECTION: SEPARATOR & TAGLINE ================= -->
+  <!-- Horizontal Separator Bar -->
+  <rect
+    fill="#94a3b8"
+    x="36"
+    y="198"
+    width="388"
+    height="3.5"
+    rx="1"
+  />
+
+  <!-- Tagline: "QUALITY WITHOUT COMPROMISE ..." -->
+  <text
+    x="230"
+    y="222"
+    fill="#475569"
+    font-family="'Cabinet Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    font-size="13"
+    font-weight="800"
+    letter-spacing="2.8"
+    text-anchor="middle"
+  >QUALITY WITHOUT COMPROMISE ...</text>
+</svg>

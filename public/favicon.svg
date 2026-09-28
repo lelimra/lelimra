@@ -1,0 +1,27 @@
+<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="28" fill="#0b2f5c" />
+  
+  <!-- Slanted L -->
+  <path
+    fill="#FFFFFF"
+    d="M 28 26 L 46 26 L 34 68 L 62 68 L 58 80 L 16 80 L 20 64 Z"
+  />
+
+  <!-- Slanted E -->
+  <path
+    fill="#FFFFFF"
+    d="M 66 26 L 108 26 L 104 38 L 82 38 L 78 48 L 98 48 L 94 60 L 74 60 L 70 68 L 100 68 L 96 80 L 54 80 Z"
+  />
+
+  <!-- E Red Accent -->
+  <polygon
+    fill="#EF4444"
+    points="80,44 104,44 100,56 76,56"
+  />
+
+  <!-- Red Triangle Core Accent at bottom -->
+  <polygon
+    fill="#EF4444"
+    points="64,90 84,114 44,114"
+  />
+</svg>

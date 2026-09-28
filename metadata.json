@@ -1,0 +1,8 @@
+{
+  "name": "Remix LE LIMRA Fans",
+  "description": "LE LIMRA by LIMRA INDUSTRIES — Ceiling Fans, Table Fans \u0026 Pedestal Fans Manufacturer in Hyderabad, Telangana, India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
