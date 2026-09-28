@@ -2,6 +2,7 @@ import express from "express";
 import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
+import { handleAiAssistantRequest } from "./api/aiAssistantHandler.ts";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -14,7 +15,6 @@ app.use(express.json());
 // AI Assistant endpoint powered by Gemini
 app.post("/api/ai-assistant", async (req, res) => {
   try {
-    const { handleAiAssistantRequest } = await import("./api/aiAssistantHandler.js");
     const response = await handleAiAssistantRequest(req.body);
     res.json(response);
   } catch (error: any) {

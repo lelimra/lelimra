@@ -927,14 +927,14 @@ export const AdminPage: React.FC = () => {
                         <td className="py-3.5 px-4">
                           <div className="flex items-center gap-3">
                             <img
-                              src={prod.image}
+                              src={prod.images?.[0] || "/images/products/avencer-prime.jpg"}
                               alt={prod.name}
                               className="w-10 h-10 object-cover rounded-lg border border-slate-200 bg-slate-50 shrink-0"
                             />
                             <div>
                               <div className="font-bold text-slate-900 text-sm">{prod.name}</div>
                               <div className="text-[10px] text-slate-400 font-mono">
-                                {prod.modelNumber || prod.id}
+                                {prod.model || prod.id}
                               </div>
                             </div>
                           </div>
@@ -986,16 +986,16 @@ export const AdminPage: React.FC = () => {
                           <button
                             onClick={() =>
                               updateProduct(prod.id, {
-                                inStock: prod.inStock === false ? true : false,
+                                available: prod.available === false ? true : false,
                               })
                             }
                             className={`px-2.5 py-1 rounded-full text-[10px] font-bold uppercase transition-all ${
-                              prod.inStock !== false
+                              prod.available !== false
                                 ? "bg-emerald-100 text-emerald-800 border border-emerald-300"
                                 : "bg-rose-100 text-rose-800 border border-rose-300"
                             }`}
                           >
-                            {prod.inStock !== false ? "In Stock" : "Out of Stock"}
+                            {prod.available !== false ? "In Stock" : "Out of Stock"}
                           </button>
                         </td>
 
